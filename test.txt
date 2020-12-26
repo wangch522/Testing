@@ -11,3 +11,4 @@ shdkah
 adlaj adlaj
 ajlda
 ssh upload
+wsl upload

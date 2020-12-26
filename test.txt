@@ -9,3 +9,5 @@ shdkah
 
 
 adlaj adlaj
+ajlda
+ssh upload

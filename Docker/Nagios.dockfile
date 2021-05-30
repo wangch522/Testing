@@ -1,0 +1,181 @@
+[
+    {
+        "Id": "sha256:7c94280b661e9fda3db8990ea7e52544a3a96e29ec56dec46e205617fbdea953",
+        "RepoTags": [
+            "jasonrivers/nagios:latest"
+        ],
+        "RepoDigests": [
+            "jasonrivers/nagios@sha256:5d62f0ed5927c049e1f2c808fcd2fc2e53cb90ed3dbb32b9fde3fe4c6ec9897f"
+        ],
+        "Parent": "",
+        "Comment": "",
+        "Created": "2019-09-03T08:13:40.65543073Z",
+        "Container": "adb819a34186d645a864069f40fdb59489c2bcb74b380c606d410b307e3aea28",
+        "ContainerConfig": {
+            "Hostname": "adb819a34186",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "ExposedPorts": {
+                "80/tcp": {}
+            },
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "NAGIOS_HOME=/opt/nagios",
+                "NAGIOS_USER=nagios",
+                "NAGIOS_GROUP=nagios",
+                "NAGIOS_CMDUSER=nagios",
+                "NAGIOS_CMDGROUP=nagios",
+                "NAGIOS_FQDN=nagios.example.com",
+                "NAGIOSADMIN_USER=nagiosadmin",
+                "NAGIOSADMIN_PASS=nagios",
+                "APACHE_RUN_USER=nagios",
+                "APACHE_RUN_GROUP=nagios",
+                "NAGIOS_TIMEZONE=UTC",
+                "DEBIAN_FRONTEND=noninteractive",
+                "NG_NAGIOS_CONFIG_FILE=/opt/nagios/etc/nagios.cfg",
+                "NG_CGI_DIR=/opt/nagios/sbin",
+                "NG_WWW_DIR=/opt/nagios/share/nagiosgraph",
+                "NG_CGI_URL=/cgi-bin",
+                "NAGIOS_BRANCH=nagios-4.4.5",
+                "NAGIOS_PLUGINS_BRANCH=release-2.2.1",
+                "NRPE_BRANCH=nrpe-3.2.1",
+                "APACHE_LOCK_DIR=/var/run",
+                "APACHE_LOG_DIR=/var/log/apache2"
+            ],
+            "Cmd": [
+                "/bin/sh",
+                "-c",
+                "#(nop) ",
+                "CMD [\"/usr/local/bin/start_nagios\"]"
+            ],
+            "ArgsEscaped": true,
+            "Image": "sha256:da5b50c368e0835e96854477d1e319c90744cde05a435e1700ab1162750e3bd1",
+            "Volumes": {
+                "/opt/Custom-Nagios-Plugins": {},
+                "/opt/nagios/etc": {},
+                "/opt/nagios/var": {},
+                "/opt/nagiosgraph/etc": {},
+                "/opt/nagiosgraph/var": {},
+                "/var/log/apache2": {}
+            },
+            "WorkingDir": "",
+            "Entrypoint": null,
+            "OnBuild": null,
+            "Labels": {}
+        },
+        "DockerVersion": "18.03.1-ee-3",
+        "Author": "Jason Rivers <jason@jasonrivers.co.uk>",
+        "Config": {
+            "Hostname": "",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "ExposedPorts": {
+                "80/tcp": {}
+            },
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "NAGIOS_HOME=/opt/nagios",
+                "NAGIOS_USER=nagios",
+                "NAGIOS_GROUP=nagios",
+                "NAGIOS_CMDUSER=nagios",
+                "NAGIOS_CMDGROUP=nagios",
+                "NAGIOS_FQDN=nagios.example.com",
+                "NAGIOSADMIN_USER=nagiosadmin",
+                "NAGIOSADMIN_PASS=nagios",
+                "APACHE_RUN_USER=nagios",
+                "APACHE_RUN_GROUP=nagios",
+                "NAGIOS_TIMEZONE=UTC",
+                "DEBIAN_FRONTEND=noninteractive",
+                "NG_NAGIOS_CONFIG_FILE=/opt/nagios/etc/nagios.cfg",
+                "NG_CGI_DIR=/opt/nagios/sbin",
+                "NG_WWW_DIR=/opt/nagios/share/nagiosgraph",
+                "NG_CGI_URL=/cgi-bin",
+                "NAGIOS_BRANCH=nagios-4.4.5",
+                "NAGIOS_PLUGINS_BRANCH=release-2.2.1",
+                "NRPE_BRANCH=nrpe-3.2.1",
+                "APACHE_LOCK_DIR=/var/run",
+                "APACHE_LOG_DIR=/var/log/apache2"
+            ],
+            "Cmd": [
+                "/usr/local/bin/start_nagios"
+            ],
+            "ArgsEscaped": true,
+            "Image": "sha256:da5b50c368e0835e96854477d1e319c90744cde05a435e1700ab1162750e3bd1",
+            "Volumes": {
+                "/opt/Custom-Nagios-Plugins": {},
+                "/opt/nagios/etc": {},
+                "/opt/nagios/var": {},
+                "/opt/nagiosgraph/etc": {},
+                "/opt/nagiosgraph/var": {},
+                "/var/log/apache2": {}
+            },
+            "WorkingDir": "",
+            "Entrypoint": null,
+            "OnBuild": null,
+            "Labels": null
+        },
+        "Architecture": "amd64",
+        "Os": "linux",
+        "Size": 740486267,
+        "VirtualSize": 740486267,
+        "GraphDriver": {
+            "Data": {
+                "LowerDir": "/var/lib/docker/overlay2/91e27e61b7115708ad4d4c34f04204ed6c76699cba81239a67cd19871c7f0055/diff:/var/lib/docker/overlay2/0ecb4b0176e23d86410e128612b2b881c71e4bd6cbf0da7b6f5404f0a9f73f38/diff:/var/lib/docker/overlay2/584dd177fcfb23d2f8e4544526e15ceffa8bd4d20b595144f8d7866568b6d3db/diff:/var/lib/docker/overlay2/d5aa5f4971211f8aab1d149b0983535ce55f211db36ca302c4c7ef78513b068b/diff:/var/lib/docker/overlay2/e1ce6f237b367da629c2c7cde254c527668f2b2c648fe935814a81b0ab5a43ce/diff:/var/lib/docker/overlay2/f027251871c4b6376e49f3baca47f973a0ae4bf5bb32f7e68553f381b1fe3ba4/diff:/var/lib/docker/overlay2/77629bda5528238db078da9d9dd491ae837b74a27a5008e22bcee3ab1a9803cd/diff:/var/lib/docker/overlay2/40281d5ec65ea8cae15b9c43369ee1b7645bccc2d20748342afbb82807f4a9aa/diff:/var/lib/docker/overlay2/00aafc4d5447e43ce97304132a61de513be5bdfae4d03b3d6a552b8f67a42756/diff:/var/lib/docker/overlay2/3a42b583ada5515f57a191d19e175d8a6f6c57bca7d8af5ba952432cfdcf04ad/diff:/var/lib/docker/overlay2/fc11f330ed03f390ee7c3f9a1beb5f9f6d047b958ca08388a6c134155d134070/diff:/var/lib/docker/overlay2/376a56d63e44a3db86bf0caaaeacdaa5723792b5e6f9930a53b5613d04e8b0d3/diff:/var/lib/docker/overlay2/f57a3477b9466aa308a319c0ef980a6b7e5f63052194e8cae5e284254251d77d/diff:/var/lib/docker/overlay2/26a297068e02f6cc2761664499b81bec48734309ba3c5d76af2d8a8a8b5bcec0/diff:/var/lib/docker/overlay2/d4ebdde1e2aca7a8e96e4624423b4bb124aab6a8a615f71b3289cbbf2d219ea2/diff:/var/lib/docker/overlay2/acd3932a5f06e7053a212831287d6f38b1aa640fd94ef2decf586ca427b8b3eb/diff:/var/lib/docker/overlay2/089c8d62d422bbb8de8697770eb8c550dd6a64df1edc29eed61401ae122a9cd2/diff:/var/lib/docker/overlay2/f51d02f50a1da52477ba24fd73b9e9ee5800f74590c307cd8e57e181a72ed5b2/diff:/var/lib/docker/overlay2/ada03aec602f5b60def4f7d15fe821232d9d4c12edebff50075dc5a108445b4b/diff:/var/lib/docker/overlay2/1b2af03d85ead73e82ebe3f6c9f7f4e2f8539d44c65baea9304c9d8a1a20fbcc/diff:/var/lib/docker/overlay2/21e0ae030ea0d0ad46bedf376ae0bc80a5bca5479de9e2aff449a19889daa69c/diff:/var/lib/docker/overlay2/a6cdfaa123b02eb0768c4f940fabdf9313196b528995d20ba552a5f71b0674f2/diff:/var/lib/docker/overlay2/e04ac2b62edbc06aa867d7d059907a960640f0feb083b8e38ee05231d53bfcae/diff:/var/lib/docker/overlay2/9a85625993fa824c4e89746ac11b31a95ca78d476cf567db165783badcb4b80e/diff:/var/lib/docker/overlay2/16841790c3cfa7fea82b8cef4676e8a2b671e680b085857b00f7050823e8ba93/diff:/var/lib/docker/overlay2/e368e24f380d02c479edf57930244eaeda392064a1ee75742cd2e00ca9022563/diff:/var/lib/docker/overlay2/fd2c66f524994ea63b964b0a1c9901169f8681b7207f6329e9fb897fc0dc1d4a/diff:/var/lib/docker/overlay2/27f10d9362013273979619edb3cd8e5cfe4c9a27a23db24264045e272fa67901/diff:/var/lib/docker/overlay2/f652d2d5ebe3db861d489e818b3d2ea20f9a124228a5ef1415de578c0e8ebc91/diff",
+                "MergedDir": "/var/lib/docker/overlay2/299a8b58f3b9c963c0d9b7f7a2d8cb78c4dc6222f3c0ab0188a70b1618c449b7/merged",
+                "UpperDir": "/var/lib/docker/overlay2/299a8b58f3b9c963c0d9b7f7a2d8cb78c4dc6222f3c0ab0188a70b1618c449b7/diff",
+                "WorkDir": "/var/lib/docker/overlay2/299a8b58f3b9c963c0d9b7f7a2d8cb78c4dc6222f3c0ab0188a70b1618c449b7/work"
+            },
+            "Name": "overlay2"
+        },
+        "RootFS": {
+            "Type": "layers",
+            "Layers": [
+                "sha256:f749b9b0fb213e9897417a985aaa9753d41bff474e1d0c0d1d266c4512eaf031",
+                "sha256:2558e637fbff95178cb4b43e0ca5f20a04ddeaf9673053bfa4dc10c72833d15a",
+                "sha256:aeda103e78c90b573700d64f6660efda378b59fe3e636ebfa28a0a105e2e2168",
+                "sha256:e79142719515e5304607fdd9adeb31db96b7acf00cabadac2678b056ed83bca6",
+                "sha256:97d1ebbdc85326ccdcbb051964adc00b8221162c1a438164f0a2b6425f71014f",
+                "sha256:0e1da7f1c508f40bbf2ca8039bb064bcaab4539062a376cb1dd44b2036d3fb53",
+                "sha256:f7944235e8faa8db1db5ad44b445e3a649352fda8b1c3907704bd4cd2b9a928e",
+                "sha256:c7b7943db5ee1dc5ccd1dcd008d8d6b904ca6e32d3852273aa2f25d6ce8e42a5",
+                "sha256:29ede15e349ebbabff8db3bfecd632c093892bd69b1233c44d9d4eeb61e576b3",
+                "sha256:a5d96555cdb0d97b9f7b4820b17e47b2a66da8dc0c8dda83897d5d5bed8cc062",
+                "sha256:bb9139ca298c0161a3e2739889770ed37e90518568d92c202a69cbfa134c3fc5",
+                "sha256:bf0e0461021ddbb181ace8c2ebf92fbfe2fadc303c5e6e0e36c70e8a97a683c9",
+                "sha256:66f8acded1fc95f05f9a982670d970c4f0508731727c8e0b30e79833bed2374e",
+                "sha256:9bd75ae5ff12910d44511299ade04b80f97b1cecaf4fc9765313ace690ef5375",
+                "sha256:362e6689e1f6968336e057e3e9c0ba71943e7ef4ccda20a162643d48ca558492",
+                "sha256:61da3df95e88ce4d4551a98a59847f1fb254b9d4be0220a50801aeed166a5dae",
+                "sha256:206433c185544069f900532b56d61e677812be3fdf0d4a2d383fb7786b503b6e",
+                "sha256:722795270cba2e62e452f7fe90c57ce127db2dbc1d3846146dcf2ce966d53b88",
+                "sha256:8ab8dbbd6d20b6f433a286f7587423a681001614dc10ff3a6a464e68d4c3115d",
+                "sha256:b10910fc57a23d5d5afae3aa9080033b57bbaeaf3895887a6b56f737fd729621",
+                "sha256:31491a5ae2782dd548e17f9f75893d120729da4b00bddf66bdca363815040abf",
+                "sha256:e34985ddec48dcc5ce5216dedc0153c3bd852b263a87256c5f0ba1781d754634",
+                "sha256:176835a5c4dcea5b49124a027cff8305268abf8fd9b3b7906686723275ad6d1e",
+                "sha256:6a6538e1a5e96340c1cba485378fb43d3dd77e8c4de5628fb1ccc2730a336fac",
+                "sha256:af440682de78e3b96ea46ac85783416befcdd8c3f8df80e08a4fdf156641bce7",
+                "sha256:f61edf95bd8fbcbdd3d55d90dcb083c7ee769053f1f4d3477ffbb562e3cbcd0a",
+                "sha256:35c30de0313ef5d32c7e733a175430c06037e711e48c8080c38b82225506a756",
+                "sha256:2c4dd97f1e597abfde7b47c5b8ce434bc7c838bbb74c9cac5944dae169274a77",
+                "sha256:6060c441ebaa7440c864e788929e7adff612ade526232df25619cf7831680c9e",
+                "sha256:e5dd2d9b7735afcad8efc15adb8375ada3a7e801ae24c505f313d46f50b49165"
+            ]
+        },
+        "Metadata": {
+            "LastTagTime": "0001-01-01T00:00:00Z"
+        }
+    }
+]

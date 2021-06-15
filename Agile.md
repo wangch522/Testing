@@ -71,3 +71,12 @@ M - 动态 motion
 3. 绩效指标必须是可以达到的（Attainable）
 4. 绩效指标是要与其他目标具有一定的相关性(Relevant)
 5. 绩效指标必须具有明确的截止期限（Time-bound)
+
+## Scrum Framework
+1. Product Owner - Product Backlog
+2. Team - Sprint Planning Meeting
+3. Team - Sprint Backlog
+4. Team - Daily Scrum Meeting
+5. Team - Finished Workd
+6. Team - Sprint Review
+7. Team - Sprint Retropective

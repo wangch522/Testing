@@ -80,3 +80,12 @@ M - 动态 motion
 5. Team - Finished Workd
 6. Team - Sprint Review
 7. Team - Sprint Retropective
+
+## 不同种类的需求
+1. 史诗 Epic - 里程碑
+2. 主题故事 Theme - 发布
+3. 故事 Story - Sprint
+4. 增强 Enhancement
+5. 缺陷 Defect
+6. 技术债务 Tech Debts
+7. 重构 Refactor

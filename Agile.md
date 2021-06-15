@@ -81,6 +81,8 @@ M - 动态 motion
 6. Team - Sprint Review
 7. Team - Sprint Retropective
 
+先有Prodcut Backlog, Product Owner 进行基于价值， 依赖关系，风险， 功能大小（ROI, 复杂度）排序。 Product Owner和团队成员进行Sprint Planning, 细化user stories, 确认验收标准（用户故事的6个特性，“INVEST”), Sprint Backlog是有团队成员创建，并自己认领tasks. The task is usually estimated less than 8 hours. 
+
 ## 不同种类的需求
 1. 史诗 Epic - 里程碑
 2. 主题故事 Theme - 发布
@@ -89,3 +91,8 @@ M - 动态 motion
 5. 缺陷 Defect
 6. 技术债务 Tech Debts
 7. 重构 Refactor
+
+## 用户故事的组成 3C原则
+ 1. Card - A written description of the story used for planning and as a cue
+ 2. Conversation - A dialogue about a story. used to specify the details of the story
+ 3. Cofirmation - For verification, and determine when the story is completed

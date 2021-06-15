@@ -96,3 +96,21 @@ M - 动态 motion
  1. Card - A written description of the story used for planning and as a cue
  2. Conversation - A dialogue about a story. used to specify the details of the story
  3. Cofirmation - For verification, and determine when the story is completed
+
+## 各种计划的时间。
+    1. 冲刺通常持续1周、2周、3周或4周。 四周应当是任何冲刺持续的最长时间。
+        如果冲刺时长为　1星期， 冲刺计划不超过2小时
+        如果冲刺时长为  2星期， 不超过4小时
+        3星期， 不超过6 小时
+        4星期， 不超过8 小时
+    2. Daily Screm meeting 不超过15分钟
+    3. Scrum Reveiw - 时间参考
+       1. 如果冲刺时长 1周  不超过1小时
+       2. 2周， 不超过2小时
+       3. 3周， 不超过3小时
+       4. 4周， 不超过4小时
+    4. Scrum Retrospecitve - 时长参考
+       1. 如果冲刺时长为1周， 不超过45分钟
+       2. 2周， 不超过1.5小时
+       3. 3周， 不超过2.25小时
+       4. 4周， 不超过3小时
